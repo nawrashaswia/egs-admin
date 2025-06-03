@@ -3,13 +3,21 @@
 namespace Modules\hr_module\Controllers\main_hr;
 
 use App\Core\DB;
+use App\Helpers\Core\FlashRedirectHelper;
 
 class Countries
 {
     public static function index(): void
     {
         $pdo = DB::connect();
-        $stmt = $pdo->query('SELECT * FROM countries ORDER BY name');
+        $search = trim($_GET['q'] ?? '');
+        if ($search !== '') {
+            $stmt = $pdo->prepare('SELECT * FROM countries WHERE name LIKE ? OR iso_code LIKE ? ORDER BY name');
+            $like = "%$search%";
+            $stmt->execute([$like, $like]);
+        } else {
+            $stmt = $pdo->query('SELECT * FROM countries ORDER BY name');
+        }
         $countries = $stmt->fetchAll(\PDO::FETCH_ASSOC);
         require APP_PATH . '/modules/hr_module/views/main_hr/countries/index_countries.php';
     }
@@ -35,8 +43,7 @@ class Countries
         $pdo = DB::connect();
         $stmt = $pdo->prepare('DELETE FROM countries WHERE id = ?');
         $stmt->execute([$id]);
-        header('Location: /hr/countries?deleted=1');
-        exit;
+        FlashRedirectHelper::success('Country deleted successfully.', '/hr/countries');
     }
 
     public static function store(): void
@@ -54,8 +61,7 @@ class Countries
             $_POST['flag_image'],
             isset($_POST['is_active']) ? 1 : 0
         ]);
-        header('Location: /hr/countries?added=1');
-        exit;
+        FlashRedirectHelper::success('Country added successfully.', '/hr/countries');
     }
 
     public static function update(): void
@@ -74,7 +80,6 @@ class Countries
             isset($_POST['is_active']) ? 1 : 0,
             $_POST['id']
         ]);
-        header('Location: /hr/countries?updated=1');
-        exit;
+        FlashRedirectHelper::success('Country updated successfully.', '/hr/countries');
     }
-} 
+}

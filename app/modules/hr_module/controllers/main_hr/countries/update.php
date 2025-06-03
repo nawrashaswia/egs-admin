@@ -1,27 +1,11 @@
 <?php
 
 use App\Core\AppKernel;
-use App\Core\DB;
+use Modules\hr_module\Controllers\main_hr\Countries;
 
 if (!class_exists(AppKernel::class)) {
     require_once dirname(__DIR__, 5) . '/core/AppKernel.php';
     AppKernel::boot();
 }
 
-$pdo = DB::connect();
-$stmt = $pdo->prepare('UPDATE countries SET name=?, iso_code=?, default_currency_code=?, local_number_length=?, base_dial_key=?, accepted_prefixes=?, timezone=?, flag_image=?, is_active=? WHERE id=?');
-$stmt->execute([
-    $_POST['name'],
-    $_POST['iso_code'],
-    $_POST['default_currency_code'],
-    $_POST['local_number_length'],
-    $_POST['base_dial_key'],
-    $_POST['accepted_prefixes'],
-    $_POST['timezone'],
-    $_POST['flag_image'],
-    isset($_POST['is_active']) ? 1 : 0,
-    $_POST['id']
-]);
-
-header('Location: /hr/countries?updated=1');
-exit;
+Countries::update();
