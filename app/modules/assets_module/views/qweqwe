@@ -1,0 +1,23 @@
+<?php
+/**
+ * View: /assets/qweqwe
+ * File: qweqwe
+ */
+
+use App\Helpers\Core\FlashHelper;
+
+// Page title
+$title = '/assets/qweqwe';
+
+// Start content
+?>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="page-title"><?= htmlspecialchars($title) ?></h1>
+            
+            <!-- Add your view content here -->
+            
+        </div>
+    </div>
+</div>

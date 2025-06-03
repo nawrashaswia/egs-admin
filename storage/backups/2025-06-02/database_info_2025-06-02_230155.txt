@@ -1,0 +1,132 @@
+🗄️ EG-ADMIN DATABASE STRUCTURE
+🕒 Generated: 2025-06-02 23:01:55
+
+📛 Database: u691180354_egsadmin
+🔤 Charset: utf8mb4
+
+════════════════════════════════════════
+
+📂 Table: `attachment_rules`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 rule_name — varchar(100) NOT NULL
+🧱 allowed_extensions — varchar(255) NULL
+🧱 max_size_mb — int NULL DEFAULT '25'
+🧱 notes — text NULL
+🧱 is_active — tinyint(1) NULL DEFAULT '1'
+🧱 created_at — datetime NULL DEFAULT 'CURRENT_TIMESTAMP' [DEFAULT_GENERATED]
+🧱 updated_at — datetime NULL DEFAULT 'CURRENT_TIMESTAMP' [DEFAULT_GENERATED]
+
+📂 Table: `attachments`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 module — varchar(50) NOT NULL
+🧱 reference_number — varchar(50) NOT NULL
+🧱 file_name — varchar(255) NOT NULL
+🧱 uploaded_by — int NULL
+🧱 uploaded_at — datetime NULL DEFAULT 'CURRENT_TIMESTAMP' [DEFAULT_GENERATED]
+🧱 is_deleted — tinyint(1) NULL DEFAULT '0'
+
+📂 Table: `construction_logs`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 trace_id — varchar(64) NULL
+🧱 event — varchar(255) NOT NULL
+🧱 level — varchar(16) NOT NULL
+🧱 user — varchar(64) NOT NULL
+🧱 mode — varchar(32) NOT NULL DEFAULT 'trace'
+🧱 ip — varchar(45) NOT NULL
+🧱 timestamp — datetime NOT NULL
+🧱 context — json NULL
+
+📂 Table: `countries`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 name — varchar(100) NOT NULL
+🧱 iso_code — char(2) NOT NULL
+🧱 default_currency_code — varchar(10) NULL
+🧱 local_number_length — int NULL DEFAULT '8'
+🧱 base_dial_key — varchar(10) NULL
+🧱 accepted_prefixes — text NULL
+🧱 timezone — varchar(50) NULL
+🧱 flag_image — varchar(255) NULL
+🧱 is_active — tinyint(1) NULL DEFAULT '1'
+
+📂 Table: `logs`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 trace_id — varchar(64) NULL
+🧱 event — varchar(255) NOT NULL
+🧱 level — varchar(16) NOT NULL
+🧱 user — varchar(64) NOT NULL
+🧱 mode — varchar(32) NOT NULL DEFAULT 'system'
+🧱 ip — varchar(45) NOT NULL
+🧱 timestamp — datetime NOT NULL
+🧱 context — json NULL
+🧱 tag — varchar(64) NULL
+
+📂 Table: `permissions`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 permission_key — varchar(255) NULL
+🧱 module — varchar(100) NULL
+🧱 file — varchar(100) NULL
+🧱 type — enum('view','controller') NULL
+🧱 target — varchar(150) NOT NULL
+🧱 description — text NULL
+
+📂 Table: `role_permissions`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 role_id — int NULL
+🧱 permission_id — int NULL
+
+🔗 Foreign Keys:
+  🔸 role_id → roles.id
+  🔸 permission_id → permissions.id
+
+📂 Table: `roles`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 name — varchar(100) NULL
+🧱 description — text NULL
+
+📂 Table: `sequence_tracker`
+-----------------------------------
+🧱 module_name — varchar(100) NOT NULL
+🧱 prefix — varchar(10) NOT NULL
+🧱 last_hi_value — int NOT NULL DEFAULT '0'
+🧱 block_size — int NOT NULL DEFAULT '100'
+🧱 updated_at — timestamp NULL DEFAULT 'CURRENT_TIMESTAMP' [DEFAULT_GENERATED on update CURRENT_TIMESTAMP]
+🧱 lo_cursor — int NULL DEFAULT '0'
+
+📂 Table: `trace_sessions`
+-----------------------------------
+🧱 trace_id — varchar(64) NOT NULL
+🧱 started_at — datetime NULL
+🧱 started_by — varchar(100) NULL
+🧱 file — varchar(255) NULL
+🧱 is_closed — tinyint(1) NULL
+🧱 notes — text NULL
+
+📂 Table: `user_roles`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 user_id — int NULL
+🧱 role_id — int NULL
+
+🔗 Foreign Keys:
+  🔸 user_id → users.id
+  🔸 role_id → roles.id
+
+📂 Table: `users`
+-----------------------------------
+🧱 id — int NOT NULL [auto_increment]
+🧱 username — varchar(50) NOT NULL
+🧱 password — varchar(255) NOT NULL
+🧱 full_name — varchar(150) NULL
+🧱 role — varchar(50) NULL DEFAULT 'User'
+🧱 status — enum('Active','Inactive') NULL DEFAULT 'Active'
+🧱 avatar — varchar(255) NULL
+🧱 created_at — datetime NULL DEFAULT 'CURRENT_TIMESTAMP' [DEFAULT_GENERATED]
+🧱 last_login — datetime NULL

@@ -1,0 +1,2392 @@
+[
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:04, I (user: system, IP: 127.0.0.1) was trying to auto page load, ran into this: Page loaded",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:04",
+        "context": "{\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"action\":\"auto page load\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: Trace mode booted\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"uri\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"method\":\"GET\",\"ip\":\"127.0.0.1\",\"source\":\"kernel\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/pages\/dashboard\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/dashboard\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard\",\"title\":\"dashboard\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/login\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/login\/submit\",\"file\":\"inline\/closure\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/logout\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/api\/errors\/report\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"module\":\"assets_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/assets\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/assets\/myass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\",\"title\":\"myass.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/assets\/qweqwe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\",\"title\":\"qweqwe\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\data_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/assets\/data_save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\data_save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\qweqweqe.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/assets\/qweqweqe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\qweqweqe.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\save_ass.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/assets\/save_ass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\save_ass.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"module\":\"general_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/settings_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\",\"title\":\"settings_ui\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/attachment_rule_add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\",\"title\":\"attachment_rule_add\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\",\"title\":\"edit_extensions_ui\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\extension_rules_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/save_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\extension_rules_save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\edit_extensions.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\edit_extensions.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\delete_extension_rule.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/delete_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\delete_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\toggle_extension_rule.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/toggle_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\toggle_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/ajax\/general_module\/handle_attachment_upload\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/ajax\/general_module\/get_attachment_list\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/logmanager\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\logmanager\\toggle_trace_mode.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/logmanager\/toggle_trace_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\logmanager\\\\toggle_trace_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/general\/logmanager\/construction\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"module\":\"hr_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"module\":\"system_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/index\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/system\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/index\",\"title\":\"index\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/system\/dddd\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\",\"title\":\"DDDD.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/system\/maintenance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\",\"title\":\"maintenance_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/system\/modules\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\",\"title\":\"modules_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/system\/permissions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\",\"title\":\"permissions_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/system\/router-manager\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\",\"title\":\"route_builder_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/system\/settings\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\",\"title\":\"general_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/system\/users\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\",\"title\":\"users_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:23, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:23",
+        "context": "{\"path\":\"\/system\/users\/add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\",\"title\":\"users_add_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/users\/edit\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\",\"title\":\"users_edit_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/users\/list\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\",\"title\":\"list_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/performance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\",\"title\":\"performancecheckui\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/maintenance\/db_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_info_export.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/maintenance\/db_info_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_info_export.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_restore.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/maintenance\/db_restore\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_restore.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\folder_export.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/maintenance\/folder_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\folder_export.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\full_system_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/maintenance\/full_system_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_system_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\full_zip_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/maintenance\/full_zip_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_zip_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\save_export_selection.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/maintenance\/save_export_selection\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\save_export_selection.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\toggle_debug_mode.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/maintenance\/toggle_debug_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\toggle_debug_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\route_builder_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/router-manager\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\route_builder_save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/users\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\update.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/users\/update\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\update.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\delete.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/users\/delete\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\delete.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\change_password.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/system\/users\/password\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\change_password.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"module\":\"telecom_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"module\":\"ticketing_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/ticketing\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"ticketing_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\ticketing_module\\controllers\\mac_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"\/ticketing\/mac\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\ticketing_module\\\\controllers\\\\mac_save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: Routing dispatch\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"method\":\"GET\",\"uri\":\"\/general\/attachment_manager\/edit_extensions_ui\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:05:24, I (user: system, IP: 127.0.0.1) ran into this: View rendered\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:05:24",
+        "context": "{\"path\":\"modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\",\"resolved\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/edit_extensions_ui?id=1\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: Trace mode booted\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"uri\":\"\/dashboard\",\"method\":\"GET\",\"ip\":\"127.0.0.1\",\"source\":\"kernel\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/pages\/dashboard\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/dashboard\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard\",\"title\":\"dashboard\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/login\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/login\/submit\",\"file\":\"inline\/closure\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/logout\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/api\/errors\/report\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"module\":\"assets_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/assets\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/assets\/myass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\",\"title\":\"myass.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/assets\/qweqwe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\",\"title\":\"qweqwe\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\data_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/assets\/data_save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\data_save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\qweqweqe.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/assets\/qweqweqe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\qweqweqe.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\save_ass.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/assets\/save_ass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\save_ass.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"module\":\"general_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/attachment_manager\/settings_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\",\"title\":\"settings_ui\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/attachment_manager\/attachment_rule_add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\",\"title\":\"attachment_rule_add\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\",\"title\":\"edit_extensions_ui\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\extension_rules_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/attachment_manager\/save_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\extension_rules_save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\edit_extensions.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\edit_extensions.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\delete_extension_rule.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/attachment_manager\/delete_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\delete_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\toggle_extension_rule.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/attachment_manager\/toggle_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\toggle_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/ajax\/general_module\/handle_attachment_upload\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/ajax\/general_module\/get_attachment_list\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/logmanager\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\logmanager\\toggle_trace_mode.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/logmanager\/toggle_trace_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\logmanager\\\\toggle_trace_mode.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/general\/logmanager\/construction\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"module\":\"hr_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"module\":\"system_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/index\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/index\",\"title\":\"index\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/dddd\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\",\"title\":\"DDDD.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/maintenance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\",\"title\":\"maintenance_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/modules\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\",\"title\":\"modules_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/permissions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\",\"title\":\"permissions_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/router-manager\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\",\"title\":\"route_builder_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/settings\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\",\"title\":\"general_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/users\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\",\"title\":\"users_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/users\/add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\",\"title\":\"users_add_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/users\/edit\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\",\"title\":\"users_edit_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/users\/list\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\",\"title\":\"list_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/performance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\",\"title\":\"performancecheckui\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/maintenance\/db_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_backup.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_info_export.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/maintenance\/db_info_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_info_export.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_restore.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/maintenance\/db_restore\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_restore.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\folder_export.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/maintenance\/folder_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\folder_export.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\full_system_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/maintenance\/full_system_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_system_backup.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\full_zip_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/maintenance\/full_zip_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_zip_backup.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\save_export_selection.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/maintenance\/save_export_selection\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\save_export_selection.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\toggle_debug_mode.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/maintenance\/toggle_debug_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\toggle_debug_mode.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\route_builder_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/router-manager\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\route_builder_save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/users\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\update.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/users\/update\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\update.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\delete.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/users\/delete\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\delete.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\change_password.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/system\/users\/password\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\change_password.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"module\":\"telecom_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"module\":\"ticketing_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/ticketing\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"ticketing_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\ticketing_module\\controllers\\mac_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"\/ticketing\/mac\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\ticketing_module\\\\controllers\\\\mac_save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: Routing dispatch\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"method\":\"GET\",\"uri\":\"\/dashboard\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:27, I (user: system, IP: 127.0.0.1) ran into this: View rendered\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:27",
+        "context": "{\"path\":\"pages\/dashboard\",\"resolved\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: Trace mode booted\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"uri\":\"\/general\/logmanager\",\"method\":\"GET\",\"ip\":\"127.0.0.1\",\"source\":\"kernel\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/pages\/dashboard\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/dashboard\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard\",\"title\":\"dashboard\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/login\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/login\/submit\",\"file\":\"inline\/closure\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/logout\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/api\/errors\/report\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"module\":\"assets_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/assets\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/assets\/myass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\",\"title\":\"myass.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/assets\/qweqwe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\",\"title\":\"qweqwe\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\data_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/assets\/data_save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\data_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\qweqweqe.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/assets\/qweqweqe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\qweqweqe.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\save_ass.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/assets\/save_ass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\save_ass.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"module\":\"general_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/attachment_manager\/settings_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\",\"title\":\"settings_ui\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/attachment_manager\/attachment_rule_add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\",\"title\":\"attachment_rule_add\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\",\"title\":\"edit_extensions_ui\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\extension_rules_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/attachment_manager\/save_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\extension_rules_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\edit_extensions.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\edit_extensions.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\delete_extension_rule.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/attachment_manager\/delete_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\delete_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\toggle_extension_rule.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/attachment_manager\/toggle_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\toggle_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/ajax\/general_module\/handle_attachment_upload\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/ajax\/general_module\/get_attachment_list\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/logmanager\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\logmanager\\toggle_trace_mode.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/logmanager\/toggle_trace_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\logmanager\\\\toggle_trace_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/general\/logmanager\/construction\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"module\":\"hr_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"module\":\"system_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/index\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/index\",\"title\":\"index\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/dddd\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\",\"title\":\"DDDD.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/maintenance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\",\"title\":\"maintenance_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/modules\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\",\"title\":\"modules_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/permissions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\",\"title\":\"permissions_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/router-manager\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\",\"title\":\"route_builder_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/settings\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\",\"title\":\"general_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/users\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\",\"title\":\"users_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/users\/add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\",\"title\":\"users_add_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/users\/edit\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\",\"title\":\"users_edit_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/users\/list\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\",\"title\":\"list_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/performance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\",\"title\":\"performancecheckui\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/maintenance\/db_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_info_export.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/maintenance\/db_info_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_info_export.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_restore.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/maintenance\/db_restore\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_restore.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\folder_export.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/maintenance\/folder_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\folder_export.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\full_system_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/maintenance\/full_system_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_system_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\full_zip_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/maintenance\/full_zip_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_zip_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\save_export_selection.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/maintenance\/save_export_selection\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\save_export_selection.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\toggle_debug_mode.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/maintenance\/toggle_debug_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\toggle_debug_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\route_builder_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/router-manager\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\route_builder_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/users\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\update.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/users\/update\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\update.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\delete.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/users\/delete\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\delete.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\change_password.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/system\/users\/password\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\change_password.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"module\":\"telecom_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"module\":\"ticketing_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/ticketing\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"ticketing_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\ticketing_module\\controllers\\mac_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"path\":\"\/ticketing\/mac\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\ticketing_module\\\\controllers\\\\mac_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:41, I (user: system, IP: 127.0.0.1) ran into this: Routing dispatch\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:41",
+        "context": "{\"method\":\"GET\",\"uri\":\"\/general\/logmanager\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: Trace mode booted\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"uri\":\"\/general\/logmanager\/toggle_trace_mode\",\"method\":\"POST\",\"ip\":\"127.0.0.1\",\"source\":\"kernel\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/pages\/dashboard\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/dashboard\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard\",\"title\":\"dashboard\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/login\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/login\/submit\",\"file\":\"inline\/closure\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/logout\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/api\/errors\/report\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"module\":\"assets_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/assets\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/assets\/myass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\",\"title\":\"myass.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/assets\/qweqwe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\",\"title\":\"qweqwe\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\data_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/assets\/data_save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\data_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\qweqweqe.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/assets\/qweqweqe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\qweqweqe.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\assets_module\\controllers\\save_ass.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/assets\/save_ass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\save_ass.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"module\":\"general_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/attachment_manager\/settings_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\",\"title\":\"settings_ui\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/attachment_manager\/attachment_rule_add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\",\"title\":\"attachment_rule_add\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\",\"title\":\"edit_extensions_ui\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\extension_rules_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/attachment_manager\/save_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\extension_rules_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\edit_extensions.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\edit_extensions.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\delete_extension_rule.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/attachment_manager\/delete_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\delete_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\attachment_manager\\toggle_extension_rule.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/attachment_manager\/toggle_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\toggle_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/ajax\/general_module\/handle_attachment_upload\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/ajax\/general_module\/get_attachment_list\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/logmanager\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\general_module\\controllers\\logmanager\\toggle_trace_mode.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/logmanager\/toggle_trace_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\logmanager\\\\toggle_trace_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: inline\/closure\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/general\/logmanager\/construction\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"module\":\"hr_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"module\":\"system_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/index\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/index\",\"title\":\"index\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/dddd\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\",\"title\":\"DDDD.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/maintenance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\",\"title\":\"maintenance_UI\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/modules\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\",\"title\":\"modules_UI\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/permissions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\",\"title\":\"permissions_UI\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/router-manager\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\",\"title\":\"route_builder_UI\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/settings\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\",\"title\":\"general_UI\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/users\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\",\"title\":\"users_UI\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/users\/add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\",\"title\":\"users_add_UI\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/users\/edit\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\",\"title\":\"users_edit_UI\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/users\/list\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\",\"title\":\"list_UI\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/performance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\",\"title\":\"performancecheckui\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/maintenance\/db_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_info_export.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/maintenance\/db_info_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_info_export.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:42, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\db_restore.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:42",
+        "context": "{\"path\":\"\/system\/maintenance\/db_restore\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_restore.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\folder_export.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/maintenance\/folder_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\folder_export.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\full_system_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/maintenance\/full_system_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_system_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\full_zip_backup.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/maintenance\/full_zip_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_zip_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\save_export_selection.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/maintenance\/save_export_selection\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\save_export_selection.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\maintenance\\toggle_debug_mode.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/maintenance\/toggle_debug_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\toggle_debug_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\route_builder_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/router-manager\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\route_builder_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/users\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\update.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/users\/update\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\update.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\delete.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/users\/delete\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\delete.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\system_module\\controllers\\users\\change_password.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/system\/users\/password\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\change_password.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"module\":\"telecom_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: Loaded module route map\n📍 File: C:\\laragon\\www\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"module\":\"ticketing_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📄 View route registered\n📍 File: C:\\laragon\\www\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/ticketing\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"ticketing_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: 📦 Controller route registered\n📍 File: C:\\laragon\\www\\egs-admin\\app\\modules\\ticketing_module\\controllers\\mac_save.php\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"path\":\"\/ticketing\/mac\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\ticketing_module\\\\controllers\\\\mac_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-ab658735",
+        "event": "Hey friend!\nAt 2025-06-01 14:12:43, I (user: system, IP: 127.0.0.1) ran into this: Routing dispatch\n🌡️ Mood: DEBUG",
+        "level": "DEBUG",
+        "user": "system",
+        "mode": "trace",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 14:12:43",
+        "context": "{\"method\":\"POST\",\"uri\":\"\/general\/logmanager\/toggle_trace_mode\",\"url\":\"\/general\/logmanager\/toggle_trace_mode\",\"module\":\"unknown\"}"
+    }
+]

@@ -1,0 +1,151 @@
+:root {
+  --color-bg: #f9fafb;
+  --color-text: #0f172a;
+  --color-muted: #64748b;
+  --color-accent: #b91c1c;
+  --color-card: #ffffff;
+  --color-border: #e2e8f0;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+.error-wrapper {
+  width: 100%;
+  max-width: 720px;
+  background: transparent;
+  text-align: center;
+}
+
+.error-img {
+  max-width: 160px;
+  margin: 0 auto 1rem;
+  display: block;
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.rotating-phrase {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--color-accent);
+  margin-bottom: 0.4rem;
+  transition: all 0.3s ease;
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.status-code {
+  font-size: 1.1rem;
+  color: var(--color-muted);
+  margin-bottom: 1rem;
+}
+
+.error-subtitle {
+  font-size: 1rem;
+  color: var(--color-muted);
+  margin-bottom: 2rem;
+}
+
+.error-meta {
+  margin-bottom: 2rem;
+}
+
+.error-diagnosis,
+.error-details {
+  text-align: left;
+  background: var(--color-card);
+  padding: 1.25rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+  margin-bottom: 1.5rem;
+}
+
+.error-diagnosis h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.error-diagnosis ul,
+.error-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.error-diagnosis li,
+.error-details li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.error-details summary {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+pre {
+  font-size: 0.85rem;
+  background: #1e293b;
+  color: #f1f5f9;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  line-height: 1.4;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.btn-outline-danger {
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
+  background: transparent;
+}
+
+.btn-outline-danger:hover {
+  background: var(--color-accent);
+  color: white;
+}
+
+.btn-outline-secondary {
+  color: var(--color-muted);
+  border: 2px solid var(--color-muted);
+  background: transparent;
+}
+
+.btn-outline-secondary:hover {
+  background: var(--color-muted);
+  color: white;
+}

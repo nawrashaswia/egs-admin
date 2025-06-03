@@ -1,0 +1,32 @@
+2025-05-29 17:44:08 - 📦 Starting file save process for ref=GENC00022, filename=GENERAL_MODULE_GENC00022_202505291744.txt
+2025-05-29 17:44:08 - 📦 Detected module: unknown
+2025-05-29 17:44:08 - 📦 Validation rules:
+2025-05-29 17:44:08 - 📦 File details: size=13285 bytes, ext=.txt
+2025-05-29 17:44:08 - 📦 Upload path: C:\laragon\www\egs-admin/public/uploads/attachments/unknown/GENC00022
+2025-05-29 17:44:08 - 📦 Target path: C:\laragon\www\egs-admin/public/uploads/attachments/unknown/GENC00022/GENERAL_MODULE_GENC00022_202505291744.txt
+2025-05-29 17:44:08 - 📦 File moved successfully, saving to database
+2025-05-29 17:44:08 - ✅ File saved successfully to database
+2025-05-29 17:46:22 - 📦 Starting file save process for ref=GENC00028, filename=GENERAL_MODULE_GENC00028_202505291746.txt
+2025-05-29 17:46:22 - 📦 Detected module: unknown
+2025-05-29 17:46:22 - 📦 Validation rules:
+2025-05-29 17:46:22 - 📦 File details: size=13285 bytes, ext=.txt
+2025-05-29 17:46:22 - 📦 Upload path: C:\laragon\www\egs-admin/public/uploads/attachments/unknown/GENC00028
+2025-05-29 17:46:22 - 📦 Target path: C:\laragon\www\egs-admin/public/uploads/attachments/unknown/GENC00028/GENERAL_MODULE_GENC00028_202505291746.txt
+2025-05-29 17:46:22 - 📦 File moved successfully, saving to database
+2025-05-29 17:46:22 - ✅ File saved successfully to database
+2025-05-29 21:51:17 - 📦 Starting file save process for ref=GENC00085, filename=GENERAL_MODULE_GENC00085_202505292151.php
+2025-05-29 21:51:17 - 📦 Detected module: unknown
+2025-05-29 21:51:17 - 📦 Validation rules:
+2025-05-29 21:51:17 - 📦 File details: size=1952 bytes, ext=.php
+2025-05-29 21:51:17 - 📦 Upload path: C:\laragon\www\egs-admin/public/uploads/attachments/unknown/GENC00085
+2025-05-29 21:51:17 - 📦 Target path: C:\laragon\www\egs-admin/public/uploads/attachments/unknown/GENC00085/GENERAL_MODULE_GENC00085_202505292151.php
+2025-05-29 21:51:17 - 📦 File moved successfully, saving to database
+2025-05-29 21:51:17 - ✅ File saved successfully to database
+2025-05-29 21:51:37 - 📦 Starting file save process for ref=GENC00085, filename=GENERAL_MODULE_GENC00085_202505292151.png
+2025-05-29 21:51:37 - 📦 Detected module: unknown
+2025-05-29 21:51:37 - 📦 Validation rules:
+2025-05-29 21:51:37 - 📦 File details: size=944327 bytes, ext=.png
+2025-05-29 21:51:37 - 📦 Upload path: C:\laragon\www\egs-admin/public/uploads/attachments/unknown/GENC00085
+2025-05-29 21:51:37 - 📦 Target path: C:\laragon\www\egs-admin/public/uploads/attachments/unknown/GENC00085/GENERAL_MODULE_GENC00085_202505292151.png
+2025-05-29 21:51:37 - 📦 File moved successfully, saving to database
+2025-05-29 21:51:37 - ✅ File saved successfully to database

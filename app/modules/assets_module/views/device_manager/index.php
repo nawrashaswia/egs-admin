@@ -1,0 +1,1 @@
+<h2>Device Manager Placeholder View</h2>

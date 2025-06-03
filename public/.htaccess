@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Automatically detect base path (set only if needed)
+    # RewriteBase /egs-admin/public/
+
+    # Allow direct access to backup exports
+    RewriteCond %{REQUEST_URI} ^/storage/backups/
+    RewriteRule ^storage/backups/(.*)$ storage/backups/$1 [L]
+
+    # Skip rewrite if the file or directory exists
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # All other requests go to index.php
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>

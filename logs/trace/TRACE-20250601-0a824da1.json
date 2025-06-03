@@ -1,0 +1,2270 @@
+[
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ Logger.php:123",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:41:59",
+        "context": "{\"params\":[\"TRACE-20250601-0a824da1\",\"2025-06-01 21:41:59\",\"system\",\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"Tracing user login flow\",0],\"duration_ms\":0.73,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\core\\\\Logger.php\",\"line\":123,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Page loaded @ settings_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:41:59",
+        "context": "{\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"action\":\"auto page load\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ settings_ui.php:11",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:41:59",
+        "context": "{\"params\":[\"general_module\"],\"duration_ms\":0.5,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"line\":11,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ settings_ui.php:11",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:41:59",
+        "context": "{\"params\":[80,\"general_module\"],\"duration_ms\":2.43,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"line\":11,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ RouteHelper.php:44",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:41:59",
+        "context": "{\"params\":null,\"duration_ms\":0.6,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\helpers\\\\core\\\\RouteHelper.php\",\"line\":44,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Trace mode booted @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"uri\":\"\/general\/attachment_manager\/settings_ui\",\"method\":\"GET\",\"source\":\"kernel\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 🧠 DB booted using TracingDBPDO @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"dsn\":\"mysql:\/\/localhost\/u691180354_egsadmin\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ dashboard",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/dashboard\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard\",\"title\":\"dashboard\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/login\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/login\/submit\",\"file\":\"inline\/closure\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/logout\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ errors_api.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/api\/errors\/report\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"module\":\"assets_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ mac_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/assets\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ myass.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/assets\/myass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\",\"title\":\"myass.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ qweqwe",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/assets\/qweqwe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\",\"title\":\"qweqwe\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ data_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/assets\/data_save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\data_save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ qweqweqe.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/assets\/qweqweqe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\qweqweqe.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save_ass.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/assets\/save_ass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\save_ass.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"module\":\"general_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ settings_ui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:16",
+        "context": "{\"path\":\"\/general\/attachment_manager\/settings_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\",\"title\":\"settings_ui\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ attachment_rule_add",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/general\/attachment_manager\/attachment_rule_add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\",\"title\":\"attachment_rule_add\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ edit_extensions_ui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\",\"title\":\"edit_extensions_ui\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ extension_rules_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/general\/attachment_manager\/save_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\extension_rules_save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ edit_extensions.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\edit_extensions.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ delete_extension_rule.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/general\/attachment_manager\/delete_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\delete_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_extension_rule.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/general\/attachment_manager\/toggle_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\toggle_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ handle_attachment_upload.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/ajax\/general_module\/handle_attachment_upload\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ get_attachment_list.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/ajax\/general_module\/get_attachment_list\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/general\/logmanager\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_trace_mode.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/general\/logmanager\/toggle_trace_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\logmanager\\\\toggle_trace_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/general\/logmanager\/construction\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"module\":\"hr_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"module\":\"system_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ index",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/index\",\"title\":\"index\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ DDDD.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/dddd\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\",\"title\":\"DDDD.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ maintenance_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/maintenance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\",\"title\":\"maintenance_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ modules_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/modules\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\",\"title\":\"modules_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ permissions_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/permissions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\",\"title\":\"permissions_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ route_builder_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/router-manager\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\",\"title\":\"route_builder_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ general_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/settings\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\",\"title\":\"general_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/users\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\",\"title\":\"users_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_add_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/users\/add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\",\"title\":\"users_add_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_edit_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/users\/edit\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\",\"title\":\"users_edit_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ list_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/users\/list\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\",\"title\":\"list_UI\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ performancecheckui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/performance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\",\"title\":\"performancecheckui\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/maintenance\/db_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_info_export.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/maintenance\/db_info_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_info_export.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_restore.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/maintenance\/db_restore\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_restore.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ folder_export.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/maintenance\/folder_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\folder_export.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ full_system_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/maintenance\/full_system_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_system_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ full_zip_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/maintenance\/full_zip_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_zip_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save_export_selection.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/maintenance\/save_export_selection\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\save_export_selection.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_debug_mode.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/maintenance\/toggle_debug_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\toggle_debug_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ route_builder_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/router-manager\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\route_builder_save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/users\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ update.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/users\/update\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\update.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ delete.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/users\/delete\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\delete.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ change_password.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/system\/users\/password\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\change_password.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"module\":\"telecom_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"module\":\"ticketing_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ mac_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/ticketing\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"ticketing_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ mac_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"\/ticketing\/mac\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\ticketing_module\\\\controllers\\\\mac_save.php\",\"method\":\"POST\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Routing dispatch @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"method\":\"GET\",\"uri\":\"\/general\/attachment_manager\/settings_ui\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 View rendered @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"path\":\"modules\/general_module\/views\/attachment_manager\/settings_ui\",\"resolved\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/views\/attachment_manager\/settings_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Page loaded @ settings_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"action\":\"auto page load\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ settings_ui.php:11",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"params\":[\"general_module\"],\"duration_ms\":0.94,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"line\":11,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ settings_ui.php:11",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"params\":[81,\"general_module\"],\"duration_ms\":0.88,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"line\":11,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ RouteHelper.php:44",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:17",
+        "context": "{\"params\":null,\"duration_ms\":0.28,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\helpers\\\\core\\\\RouteHelper.php\",\"line\":44,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Trace mode booted @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"uri\":\"\/dashboard\",\"method\":\"GET\",\"source\":\"kernel\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 🧠 DB booted using TracingDBPDO @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"dsn\":\"mysql:\/\/localhost\/u691180354_egsadmin\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ dashboard",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/dashboard\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard\",\"title\":\"dashboard\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/login\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/login\/submit\",\"file\":\"inline\/closure\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/logout\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ errors_api.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/api\/errors\/report\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"module\":\"assets_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ mac_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/assets\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ myass.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/assets\/myass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\",\"title\":\"myass.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ qweqwe",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/assets\/qweqwe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\",\"title\":\"qweqwe\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ data_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/assets\/data_save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\data_save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ qweqweqe.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/assets\/qweqweqe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\qweqweqe.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save_ass.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/assets\/save_ass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\save_ass.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"module\":\"general_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ settings_ui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/attachment_manager\/settings_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\",\"title\":\"settings_ui\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ attachment_rule_add",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/attachment_manager\/attachment_rule_add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\",\"title\":\"attachment_rule_add\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ edit_extensions_ui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\",\"title\":\"edit_extensions_ui\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ extension_rules_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/attachment_manager\/save_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\extension_rules_save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ edit_extensions.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\edit_extensions.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ delete_extension_rule.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/attachment_manager\/delete_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\delete_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_extension_rule.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/attachment_manager\/toggle_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\toggle_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ handle_attachment_upload.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/ajax\/general_module\/handle_attachment_upload\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ get_attachment_list.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/ajax\/general_module\/get_attachment_list\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/logmanager\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_trace_mode.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/logmanager\/toggle_trace_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\logmanager\\\\toggle_trace_mode.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/general\/logmanager\/construction\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"module\":\"hr_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"module\":\"system_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ index",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/index\",\"title\":\"index\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ DDDD.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/dddd\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\",\"title\":\"DDDD.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ maintenance_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/maintenance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\",\"title\":\"maintenance_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ modules_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/modules\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\",\"title\":\"modules_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ permissions_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/permissions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\",\"title\":\"permissions_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ route_builder_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/router-manager\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\",\"title\":\"route_builder_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ general_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/settings\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\",\"title\":\"general_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/users\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\",\"title\":\"users_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_add_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/users\/add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\",\"title\":\"users_add_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_edit_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/users\/edit\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\",\"title\":\"users_edit_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ list_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/users\/list\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\",\"title\":\"list_UI\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ performancecheckui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/performance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\",\"title\":\"performancecheckui\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/maintenance\/db_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_backup.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_info_export.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:19",
+        "context": "{\"path\":\"\/system\/maintenance\/db_info_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_info_export.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_restore.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/maintenance\/db_restore\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_restore.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ folder_export.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/maintenance\/folder_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\folder_export.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ full_system_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/maintenance\/full_system_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_system_backup.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ full_zip_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/maintenance\/full_zip_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_zip_backup.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save_export_selection.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/maintenance\/save_export_selection\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\save_export_selection.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_debug_mode.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/maintenance\/toggle_debug_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\toggle_debug_mode.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ route_builder_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/router-manager\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\route_builder_save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/users\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ update.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/users\/update\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\update.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ delete.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/users\/delete\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\delete.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ change_password.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/system\/users\/password\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\change_password.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"module\":\"telecom_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"module\":\"ticketing_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/dashboard\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ mac_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/ticketing\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"ticketing_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ mac_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"\/ticketing\/mac\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\ticketing_module\\\\controllers\\\\mac_save.php\",\"method\":\"POST\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Routing dispatch @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"method\":\"GET\",\"uri\":\"\/dashboard\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 View rendered @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:20",
+        "context": "{\"path\":\"pages\/dashboard\",\"resolved\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard.php\",\"method\":\"GET\",\"url\":\"\/dashboard\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Trace mode booted @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"uri\":\"\/general\/logmanager\",\"method\":\"GET\",\"source\":\"kernel\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 🧠 DB booted using TracingDBPDO @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"dsn\":\"mysql:\/\/localhost\/u691180354_egsadmin\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ dashboard",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"path\":\"\/dashboard\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard\",\"title\":\"dashboard\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"path\":\"\/\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"path\":\"\/login\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"path\":\"\/login\/submit\",\"file\":\"inline\/closure\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"path\":\"\/logout\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ errors_api.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"path\":\"\/api\/errors\/report\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"module\":\"assets_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ mac_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:22",
+        "context": "{\"path\":\"\/assets\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ myass.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/assets\/myass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\",\"title\":\"myass.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ qweqwe",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/assets\/qweqwe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\",\"title\":\"qweqwe\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ data_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/assets\/data_save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\data_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ qweqweqe.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/assets\/qweqweqe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\qweqweqe.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save_ass.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/assets\/save_ass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\save_ass.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"module\":\"general_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ settings_ui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/settings_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\",\"title\":\"settings_ui\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ attachment_rule_add",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/attachment_rule_add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\",\"title\":\"attachment_rule_add\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ edit_extensions_ui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\",\"title\":\"edit_extensions_ui\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ extension_rules_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/save_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\extension_rules_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ edit_extensions.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\edit_extensions.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ delete_extension_rule.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/delete_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\delete_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_extension_rule.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/attachment_manager\/toggle_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\toggle_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ handle_attachment_upload.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/ajax\/general_module\/handle_attachment_upload\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ get_attachment_list.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/ajax\/general_module\/get_attachment_list\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/logmanager\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_trace_mode.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/logmanager\/toggle_trace_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\logmanager\\\\toggle_trace_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/general\/logmanager\/construction\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"module\":\"hr_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"module\":\"system_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ index",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/index\",\"title\":\"index\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ DDDD.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/dddd\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\",\"title\":\"DDDD.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ maintenance_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/maintenance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\",\"title\":\"maintenance_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ modules_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/modules\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\",\"title\":\"modules_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ permissions_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/permissions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\",\"title\":\"permissions_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ route_builder_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/router-manager\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\",\"title\":\"route_builder_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ general_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/settings\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\",\"title\":\"general_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/users\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\",\"title\":\"users_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_add_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/users\/add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\",\"title\":\"users_add_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_edit_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/users\/edit\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\",\"title\":\"users_edit_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ list_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/users\/list\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\",\"title\":\"list_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ performancecheckui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/performance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\",\"title\":\"performancecheckui\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/maintenance\/db_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_info_export.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/maintenance\/db_info_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_info_export.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_restore.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/maintenance\/db_restore\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_restore.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ folder_export.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/maintenance\/folder_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\folder_export.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ full_system_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/maintenance\/full_system_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_system_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ full_zip_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/maintenance\/full_zip_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_zip_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save_export_selection.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/maintenance\/save_export_selection\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\save_export_selection.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_debug_mode.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/maintenance\/toggle_debug_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\toggle_debug_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ route_builder_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/router-manager\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\route_builder_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/users\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ update.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/users\/update\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\update.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ delete.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/users\/delete\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\delete.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ change_password.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/system\/users\/password\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\change_password.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"module\":\"telecom_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"module\":\"ticketing_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ mac_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/ticketing\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\",\"module\":\"ticketing_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ mac_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"path\":\"\/ticketing\/mac\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\ticketing_module\\\\controllers\\\\mac_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Routing dispatch @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:23",
+        "context": "{\"method\":\"GET\",\"uri\":\"\/general\/logmanager\",\"url\":\"\/general\/logmanager\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Trace mode booted @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"uri\":\"\/general\/logmanager\/construction\",\"method\":\"GET\",\"source\":\"kernel\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 🧠 DB booted using TracingDBPDO @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"dsn\":\"mysql:\/\/localhost\/u691180354_egsadmin\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ dashboard",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/dashboard\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/pages\/dashboard\",\"title\":\"dashboard\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/login\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/login\/submit\",\"file\":\"inline\/closure\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/logout\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ errors_api.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/api\/errors\/report\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/app\/api\/errors\/errors_api.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"module\":\"assets_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/assets_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ mac_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/assets\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ myass.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/assets\/myass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/myass.php\",\"title\":\"myass.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ qweqwe",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/assets\/qweqwe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/assets_module\/views\/qweqwe\",\"title\":\"qweqwe\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"assets_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ data_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/assets\/data_save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\data_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ qweqweqe.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/assets\/qweqweqe\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\qweqweqe.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save_ass.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/assets\/save_ass\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\assets_module\\\\controllers\\\\save_ass.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"module\":\"general_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/general_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ settings_ui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/attachment_manager\/settings_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/settings_ui\",\"title\":\"settings_ui\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ attachment_rule_add",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/attachment_manager\/attachment_rule_add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/attachment_rule_add\",\"title\":\"attachment_rule_add\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ edit_extensions_ui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions_ui\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/general_module\/views\/attachment_manager\/edit_extensions_ui\",\"title\":\"edit_extensions_ui\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ extension_rules_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/attachment_manager\/save_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\extension_rules_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ edit_extensions.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/attachment_manager\/edit_extensions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\edit_extensions.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ delete_extension_rule.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/attachment_manager\/delete_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\delete_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_extension_rule.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/attachment_manager\/toggle_extension_rule\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\attachment_manager\\\\toggle_extension_rule.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ handle_attachment_upload.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/ajax\/general_module\/handle_attachment_upload\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/handle_attachment_upload.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ get_attachment_list.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/ajax\/general_module\/get_attachment_list\",\"file\":\"C:\/laragon\/www\/egs-admin\/app\/modules\/general_module\/controllers\/ajax\/general_module\/get_attachment_list.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"general_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/logmanager\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_trace_mode.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/logmanager\/toggle_trace_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\controllers\\\\logmanager\\\\toggle_trace_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ closure",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/general\/logmanager\/construction\",\"file\":\"inline\/closure\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"module\":\"hr_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/hr_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"module\":\"system_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/system_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ index",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:28",
+        "context": "{\"path\":\"\/system\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/index\",\"title\":\"index\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ DDDD.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/dddd\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/DDDD.php\",\"title\":\"DDDD.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ maintenance_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/maintenance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/maintenance_UI\",\"title\":\"maintenance_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ modules_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/modules\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/modules_UI\",\"title\":\"modules_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ permissions_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/permissions\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/permissions_UI\",\"title\":\"permissions_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ route_builder_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/router-manager\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/route_builder_UI\",\"title\":\"route_builder_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ general_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/settings\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/general_UI\",\"title\":\"general_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/users\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_UI\",\"title\":\"users_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_add_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/users\/add\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_add_UI\",\"title\":\"users_add_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ users_edit_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/users\/edit\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users_edit_UI\",\"title\":\"users_edit_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ list_UI",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/users\/list\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/users\/list_UI\",\"title\":\"list_UI\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ performancecheckui",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/performance\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/system_module\/views\/performancecheckui\",\"title\":\"performancecheckui\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"system_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/maintenance\/db_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_info_export.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/maintenance\/db_info_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_info_export.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ db_restore.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/maintenance\/db_restore\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\db_restore.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ folder_export.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/maintenance\/folder_export\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\folder_export.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ full_system_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/maintenance\/full_system_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_system_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ full_zip_backup.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/maintenance\/full_zip_backup\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\full_zip_backup.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save_export_selection.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/maintenance\/save_export_selection\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\save_export_selection.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ toggle_debug_mode.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/maintenance\/toggle_debug_mode\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\maintenance\\\\toggle_debug_mode.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ route_builder_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/router-manager\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\route_builder_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/users\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ update.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/users\/update\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\update.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ delete.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/users\/delete\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\delete.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ change_password.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/system\/users\/password\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\system_module\\\\controllers\\\\users\\\\change_password.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"module\":\"telecom_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/telecom_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Loaded module route map @ routes.map.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"module\":\"ticketing_module\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/modules\/ticketing_module\/controllers\/routes.map.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📄 View route registered @ mac_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/ticketing\/mac\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\/app\/views\/modules\/ticketing_module\/views\/mac_ui.php\",\"title\":\"mac_ui.php\",\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"ticketing_module\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 📦 Controller route registered @ mac_save.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"path\":\"\/ticketing\/mac\/save\",\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\ticketing_module\\\\controllers\\\\mac_save.php\",\"method\":\"POST\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 Routing dispatch @ unknown",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:42:29",
+        "context": "{\"method\":\"GET\",\"uri\":\"\/general\/logmanager\/construction\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-0a824da1",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ TraceManager.php:53",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:43:03",
+        "context": "{\"params\":[1,\"TRACE-20250601-0a824da1\"],\"duration_ms\":0.11,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\core\\\\TraceManager.php\",\"line\":53,\"method\":\"GET\",\"url\":\"\/general\/logmanager\/construction\",\"module\":\"unknown\"}"
+    }
+]

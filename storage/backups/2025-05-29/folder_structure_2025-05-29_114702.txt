@@ -1,0 +1,249 @@
+📦 EG-ADMIN Folder Export
+🕒 Generated: 2025-05-29 11:47:02
+
+📁 www/app/
+📁 www/app/ajax/
+📁 www/app/ajax/general_module/
+  📄 www/app/ajax/general_module/get_attachment_list.php
+  📄 www/app/ajax/general_module/handle_attachment_upload.php
+📁 www/app/ajax/system_module/
+  📄 www/app/ajax/system_module/validate.php
+📁 www/app/ajax/telecom_module/
+📁 www/app/api/
+📁 www/app/api/telecom_module/
+📁 www/app/core/
+  📄 www/app/core/App.php
+  📄 www/app/core/AppKernel.php
+  📄 www/app/core/Auth.php
+  📄 www/app/core/BaseController.php
+  📄 www/app/core/DB.php
+  📄 www/app/core/RouteLoader.php
+  📄 www/app/core/Router.php
+  📄 www/app/core/ViewRenderer.php
+📁 www/app/helpers/
+📁 www/app/helpers/core/
+  📄 www/app/helpers/core/CSRFHelper.php
+  📄 www/app/helpers/core/ErrorHandler.php
+  📄 www/app/helpers/core/ExtensionHelper.php
+  📄 www/app/helpers/core/FlashHelper.php
+  📄 www/app/helpers/core/FlashRedirectHelper.php
+  📄 www/app/helpers/core/HiLoSequence.php
+  📄 www/app/helpers/core/JsonResponse.php
+  📄 www/app/helpers/core/LogHelper.php
+  📄 www/app/helpers/core/ModuleDiscoveryHelper.php
+  📄 www/app/helpers/core/RedirectHelper.php
+  📄 www/app/helpers/core/RouteHelper.php
+  📄 www/app/helpers/core/RouteMigratorHelper.php
+  📄 www/app/helpers/core/ValidationHelper.php
+📁 www/app/helpers/general_module/
+  📄 www/app/helpers/general_module/AttachmentUI.php
+  📄 www/app/helpers/general_module/attachment_block.php
+  📄 www/app/helpers/general_module/attachmentmanagerhelper.php
+📁 www/app/helpers/system_module/
+  📄 www/app/helpers/system_module/change_password_helper.php
+📁 www/app/jobs/
+  📄 www/app/jobs/attachment_debug.log
+📁 www/app/logs/
+  📄 www/app/logs/router_test.log
+  📄 www/app/logs/upload_debug.log
+📁 www/app/middleware/
+📁 www/app/models/
+📁 www/app/modules/
+📁 www/app/modules/assets_module/
+📁 www/app/modules/assets_module/controllers/
+  📄 www/app/modules/assets_module/controllers/data_save.php
+  📄 www/app/modules/assets_module/controllers/qweqweqe.php
+  📄 www/app/modules/assets_module/controllers/routes.map.php
+  📄 www/app/modules/assets_module/controllers/save_ass.php
+📁 www/app/modules/assets_module/views/
+  📄 www/app/modules/assets_module/views/mac_ui.php
+  📄 www/app/modules/assets_module/views/myass.php
+  📄 www/app/modules/assets_module/views/qweqwe
+📁 www/app/modules/assets_module/views/device_manager/
+  📄 www/app/modules/assets_module/views/device_manager/index.php
+📁 www/app/modules/general_module/
+📁 www/app/modules/general_module/controllers/
+  📄 www/app/modules/general_module/controllers/routes.map.php
+📁 www/app/modules/general_module/controllers/attachment_manager/
+  📄 www/app/modules/general_module/controllers/attachment_manager/delete_extension_rule.php
+  📄 www/app/modules/general_module/controllers/attachment_manager/edit_extensions.php
+  📄 www/app/modules/general_module/controllers/attachment_manager/extension_rules_save.php
+  📄 www/app/modules/general_module/controllers/attachment_manager/toggle_extension_rule.php
+📁 www/app/modules/general_module/views/
+📁 www/app/modules/general_module/views/attachment_manager/
+  📄 www/app/modules/general_module/views/attachment_manager/attachment_rule_add.php
+  📄 www/app/modules/general_module/views/attachment_manager/edit_extensions_ui.php
+  📄 www/app/modules/general_module/views/attachment_manager/index.php
+  📄 www/app/modules/general_module/views/attachment_manager/settings_ui.php
+📁 www/app/modules/general_module/views/logs_manager/
+  📄 www/app/modules/general_module/views/logs_manager/index.php
+📁 www/app/modules/hr_module/
+📁 www/app/modules/hr_module/controllers/
+  📄 www/app/modules/hr_module/controllers/routes.map.php
+📁 www/app/modules/hr_module/controllers/exit_form/
+  📄 www/app/modules/hr_module/controllers/exit_form/delete_exit_form.php
+  📄 www/app/modules/hr_module/controllers/exit_form/exit_form.php
+  📄 www/app/modules/hr_module/controllers/exit_form/store_exit_form.php
+📁 www/app/modules/hr_module/controllers/main_hr/
+  📄 www/app/modules/hr_module/controllers/main_hr/dashboard.php
+  📄 www/app/modules/hr_module/controllers/main_hr/pending_staff.php
+📁 www/app/modules/hr_module/controllers/onboarding_form/
+  📄 www/app/modules/hr_module/controllers/onboarding_form/onboarding_form.php
+  📄 www/app/modules/hr_module/controllers/onboarding_form/store_onboarding_form.php
+  📄 www/app/modules/hr_module/controllers/onboarding_form/update_onboarding_form.php
+📁 www/app/modules/hr_module/controllers/reports/
+  📄 www/app/modules/hr_module/controllers/reports/report_controller.php
+📁 www/app/modules/hr_module/views/
+📁 www/app/modules/hr_module/views/exit_form/
+  📄 www/app/modules/hr_module/views/exit_form/index_exit_form.php
+📁 www/app/modules/hr_module/views/main_hr/
+  📄 www/app/modules/hr_module/views/main_hr/dashboard.php
+  📄 www/app/modules/hr_module/views/main_hr/pending_staff.php
+📁 www/app/modules/hr_module/views/onboarding_form/
+  📄 www/app/modules/hr_module/views/onboarding_form/edit_onboarding_form.php
+  📄 www/app/modules/hr_module/views/onboarding_form/index_onboarding_form.php
+📁 www/app/modules/hr_module/views/reports/
+  📄 www/app/modules/hr_module/views/reports/inactive_staff.php
+  📄 www/app/modules/hr_module/views/reports/staff_log.php
+📁 www/app/modules/system_module/
+📁 www/app/modules/system_module/controllers/
+  📄 www/app/modules/system_module/controllers/maintenance.php
+  📄 www/app/modules/system_module/controllers/route_builder_save.php
+  📄 www/app/modules/system_module/controllers/routes.map copy.php
+  📄 www/app/modules/system_module/controllers/routes.map.php
+  📄 www/app/modules/system_module/controllers/save_DDD.php
+  📄 www/app/modules/system_module/controllers/settings.php
+📁 www/app/modules/system_module/controllers/maintenance/
+  📄 www/app/modules/system_module/controllers/maintenance/db_backup.php
+  📄 www/app/modules/system_module/controllers/maintenance/db_info_export.php
+  📄 www/app/modules/system_module/controllers/maintenance/db_restore.php
+  📄 www/app/modules/system_module/controllers/maintenance/folder_export.php
+  📄 www/app/modules/system_module/controllers/maintenance/full_system_backup.php
+  📄 www/app/modules/system_module/controllers/maintenance/full_zip_backup.php
+  📄 www/app/modules/system_module/controllers/maintenance/save_export_selection.php
+📁 www/app/modules/system_module/views/
+  📄 www/app/modules/system_module/views/DDDD.php
+  📄 www/app/modules/system_module/views/maintenance_UI.php
+  📄 www/app/modules/system_module/views/route_builder_UI.php
+  📄 www/app/modules/system_module/views/users_UI.php
+  📄 www/app/modules/system_module/views/users_add_UI.php
+  📄 www/app/modules/system_module/views/users_edit_UI.php
+📁 www/app/modules/system_module/views/maintenance/
+  📄 www/app/modules/system_module/views/maintenance/db_UI.php
+  📄 www/app/modules/system_module/views/maintenance/folder_structure_UI.php
+📁 www/app/modules/telecom_module/
+📁 www/app/modules/telecom_module/controllers/
+  📄 www/app/modules/telecom_module/controllers/routes.map.php
+  📄 www/app/modules/telecom_module/controllers/test.php
+📁 www/app/modules/telecom_module/controllers/main_telecom/
+  📄 www/app/modules/telecom_module/controllers/main_telecom/dashboard.php
+  📄 www/app/modules/telecom_module/controllers/main_telecom/pending_cases.php
+📁 www/app/modules/telecom_module/controllers/reports/
+  📄 www/app/modules/telecom_module/controllers/reports/report_controller.php
+📁 www/app/modules/telecom_module/controllers/request_form/
+  📄 www/app/modules/telecom_module/controllers/request_form/delete_request_form.php
+  📄 www/app/modules/telecom_module/controllers/request_form/request_form.php
+  📄 www/app/modules/telecom_module/controllers/request_form/store_request_form.php
+  📄 www/app/modules/telecom_module/controllers/request_form/update_request_form.php
+📁 www/app/modules/telecom_module/controllers/upgrade_form/
+  📄 www/app/modules/telecom_module/controllers/upgrade_form/store_upgrade_form.php
+  📄 www/app/modules/telecom_module/controllers/upgrade_form/update_upgrade_form.php
+  📄 www/app/modules/telecom_module/controllers/upgrade_form/upgrade_form.php
+📁 www/app/modules/telecom_module/views/
+📁 www/app/modules/telecom_module/views/main_telecom/
+  📄 www/app/modules/telecom_module/views/main_telecom/dashboard.php
+  📄 www/app/modules/telecom_module/views/main_telecom/pending_cases.php
+📁 www/app/modules/telecom_module/views/reports/
+  📄 www/app/modules/telecom_module/views/reports/ML_Services.php
+  📄 www/app/modules/telecom_module/views/reports/ML_Services_log.php
+📁 www/app/modules/telecom_module/views/request_form/
+  📄 www/app/modules/telecom_module/views/request_form/edit_request_form.php
+  📄 www/app/modules/telecom_module/views/request_form/index_request_form.php
+📁 www/app/modules/telecom_module/views/upgrade_form/
+  📄 www/app/modules/telecom_module/views/upgrade_form/index_upgrade_form.php
+  📄 www/app/modules/telecom_module/views/upgrade_form/result_upgrade_form.php
+📁 www/app/modules/ticketing_module/
+📁 www/app/modules/ticketing_module/controllers/
+  📄 www/app/modules/ticketing_module/controllers/create_ticket.php
+  📄 www/app/modules/ticketing_module/controllers/dashboard.php
+  📄 www/app/modules/ticketing_module/controllers/mac_save.php
+  📄 www/app/modules/ticketing_module/controllers/reply_ticket.php
+  📄 www/app/modules/ticketing_module/controllers/reports.php
+  📄 www/app/modules/ticketing_module/controllers/routes.map.php
+  📄 www/app/modules/ticketing_module/controllers/store_ticket.php
+  📄 www/app/modules/ticketing_module/controllers/update_status.php
+📁 www/app/modules/ticketing_module/views/
+  📄 www/app/modules/ticketing_module/views/create_ticket.php
+  📄 www/app/modules/ticketing_module/views/dashboard.php
+  📄 www/app/modules/ticketing_module/views/mac_ui.php
+  📄 www/app/modules/ticketing_module/views/ticket_view.php
+📁 www/app/modules/ticketing_module/views/includes/
+  📄 www/app/modules/ticketing_module/views/includes/ticket_sidebar.php
+  📄 www/app/modules/ticketing_module/views/includes/ticket_status_badge.php
+📁 www/app/modules/ticketing_module/views/reports/
+  📄 www/app/modules/ticketing_module/views/reports/ticket_logs.php
+  📄 www/app/modules/ticketing_module/views/reports/ticket_summary.php
+📁 www/app/services/
+  📄 www/app/services/AuthService.php
+📁 www/app/tests/
+📁 www/app/views/
+  📄 www/app/views/routes.map.php
+📁 www/app/views/components/
+  📄 www/app/views/components/attachment_upload_section.php
+  📄 www/app/views/components/sidebar.php
+  📄 www/app/views/components/topbar.php
+📁 www/app/views/components/sidebar_modules/
+  📄 www/app/views/components/sidebar_modules/sidebar_assets.php
+  📄 www/app/views/components/sidebar_modules/sidebar_general.php
+  📄 www/app/views/components/sidebar_modules/sidebar_hr.php
+  📄 www/app/views/components/sidebar_modules/sidebar_system.php
+  📄 www/app/views/components/sidebar_modules/sidebar_telecom.php
+  📄 www/app/views/components/sidebar_modules/sidebar_tickets.php
+📁 www/app/views/error/
+  📄 www/app/views/error/404.php
+  📄 www/app/views/error/general.php
+  📄 www/app/views/error/router-error.php
+  📄 www/app/views/error/view_not_found.php
+📁 www/app/views/layout/
+  📄 www/app/views/layout/footer.php
+  📄 www/app/views/layout/main.php
+📁 www/app/views/pages/
+  📄 www/app/views/pages/dashboard.php
+  📄 www/app/views/pages/login.php
+📁 www/config/
+  📄 www/config/app.php
+  📄 www/config/database.php
+  📄 www/config/session.php
+📁 www/logs/
+📁 www/public/
+  📄 www/public/.htaccess
+  📄 www/public/favicon.ico
+  📄 www/public/index.php
+  📄 www/public/logout.php
+📁 www/public/assets/
+📁 www/public/assets/css/
+📁 www/public/assets/fonts/
+📁 www/public/assets/img/
+📁 www/public/assets/img/flags/
+📁 www/public/assets/img/payments/
+📁 www/public/assets/img/social/
+📁 www/public/assets/js/
+📁 www/public/assets/js/general_module/
+📁 www/public/assets/js/general_module/attachments/
+  📄 www/public/assets/js/general_module/attachments/form_builder.js
+  📄 www/public/assets/js/general_module/attachments/refresh_list.js
+  📄 www/public/assets/js/general_module/attachments/thumbnail_helper.js
+📁 www/public/assets/js/system_module/
+  📄 www/public/assets/js/system_module/folder_structure.js
+📁 www/public/docs/
+📁 www/public/docs/EGS-ADMIN Developer Guide/
+📁 www/public/uploads/
+📁 www/public/uploads/attachments/
+📁 www/public/uploads/avatars/
+📁 www/storage/
+📁 www/storage/attachments/
+📁 www/storage/backups/
+📁 www/storage/debugs/
+📁 www/storage/logs/
+📁 www/storage/system/
+📁 www/storage/uploads/

@@ -1,0 +1,47 @@
+[
+    {
+        "trace_id": "TRACE-20250601-55dd3cb8",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ Logger.php:112",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:00:38",
+        "context": "{\"params\":[\"TRACE-20250601-55dd3cb8\",\"2025-06-01 21:00:38\",\"system\",\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"Tracing user login flow\",0],\"duration_ms\":1.54,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\core\\\\Logger.php\",\"line\":112,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-55dd3cb8",
+        "event": "🔧 Page loaded @ settings_ui.php",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:00:38",
+        "context": "{\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"action\":\"auto page load\",\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-55dd3cb8",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ settings_ui.php:9",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:00:38",
+        "context": "{\"params\":[\"general_module\"],\"duration_ms\":1.46,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"line\":9,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-55dd3cb8",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ settings_ui.php:9",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:00:38",
+        "context": "{\"params\":[70,\"general_module\"],\"duration_ms\":1.4,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\modules\\\\general_module\\\\views\\\\attachment_manager\\\\settings_ui.php\",\"line\":9,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    },
+    {
+        "trace_id": "TRACE-20250601-55dd3cb8",
+        "event": "🔧 \\ud83d\\udcc5 SQL Query Executed @ RouteHelper.php:44",
+        "level": "DEBUG",
+        "user": "system",
+        "ip": "127.0.0.1",
+        "timestamp": "2025-06-01 21:00:38",
+        "context": "{\"params\":null,\"duration_ms\":2.58,\"file\":\"C:\\\\laragon\\\\www\\\\egs-admin\\\\app\\\\helpers\\\\core\\\\RouteHelper.php\",\"line\":44,\"method\":\"GET\",\"url\":\"\/general\/attachment_manager\/settings_ui\",\"module\":\"unknown\"}"
+    }
+]
