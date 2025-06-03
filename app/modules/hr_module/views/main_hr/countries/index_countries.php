@@ -16,8 +16,12 @@
 </div>
 
 <div class="card shadow-sm">
-    <div class="card-header">
+    <div class="card-header d-flex justify-content-between align-items-center">
         <h3 class="card-title">Countries</h3>
+        <form method="get" class="d-flex" action="">
+            <input type="text" name="q" value="<?= htmlspecialchars($search ?? '') ?>" class="form-control form-control-sm" placeholder="Search">
+            <button class="btn btn-sm btn-primary ms-2"><i class="ti ti-search"></i></button>
+        </form>
     </div>
     <div class="table-responsive">
             <table class="table table-hover table-bordered align-middle text-wrap">
