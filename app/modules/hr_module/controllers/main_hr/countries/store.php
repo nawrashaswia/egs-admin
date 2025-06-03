@@ -8,4 +8,6 @@ if (!class_exists(AppKernel::class)) {
     AppKernel::boot();
 }
 
+require_once __DIR__ . '/../countries.php';
+
 Countries::store();
