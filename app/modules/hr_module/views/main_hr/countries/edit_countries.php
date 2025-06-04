@@ -64,5 +64,8 @@
         </div>
     </div>
 </form>
+
+
+
 <?php $content = ob_get_clean(); ?>
 <?php require VIEWS_PATH . '/layout/main.php'; ?>
